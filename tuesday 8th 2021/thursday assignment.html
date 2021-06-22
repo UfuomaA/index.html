@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Checkbox</title>
+        <style>
+            .manipulation {color: red;}
+            body{
+                margin: 0%;
+                padding: 0%;
+            }
+            .sub_title {color: slateblue; font-size: 30px;}
+            #pet_home {background-color:purple}  
+            table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 50%;
+            }
+            
+            td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+            }
+            
+            tr:nth-child(even) {
+            background-color: #dddddd;
+            }
+            
+        </style>
+    </head>
+    <body>
+    <div id="pet_home">    
+        <a href="https://www.w3schools.com/html/html_attributes.asp">Go Back</a>
+        <br>
+        <br>
+        <h1 style="color: rgb(139, 0, 23);">Pet Home</h1>
+        <img src="https://static.greatbigcanvas.com/images/square/getty-images/a-dog-naps-on-a-red-blanket,1001349.jpg?max=200" alt="/a-dog-naps-on-a-red-blanket,1001349.jpg?max=200">
+        <br>
+        <br>
+        <button> like</button>
+        <button>Unlike</button>
+        <br>
+    </div>    
+    <div id="mission_statement">
+        <h3 class="sub_title"> Our mission</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+    </div>    
+    <div id="Available_dogs">    
+        <h1 class="sub_title">Available dogs, Location and price</h1>
+        <table class="manipulation">
+            <tr>
+            <th>S/N</th>
+            <th>Name</th>
+            <th>Location</th>
+            <th>Price</th>
+            </tr>
+            <tr>
+            <td>1</td>
+            <td>Bulldog</td>
+            <td>Abuja</td>
+            <td>120,000</td>
+            </tr>
+            <tr>
+            <td>2</td>
+            <td>German Sheperd</td>
+            <td>Enugu</td>
+            <td>40,000</td>
+            </tr>
+            <tr>
+            <td>3</td>
+            <td>Rottweiller</td>
+            <td>Jos</td>
+            <td>90,000</td>
+            </tr>
+            <tr>
+            <td>4</td>
+            <td>Cucassion</td>
+            <td>Lagos</td>
+            <td>320,000</td>
+            </tr>
+            <tr>
+            <td>5</td>
+            <td>Eskimo</td>
+            <td>Lagos</td>
+            <td>70,000</td>
+            </tr>
+        </table>
+        </form>
+        <h3 class="sub_title">Highlight of breed captured</h3>
+            <ul>
+            <li>Bulldog</li>
+            <li>German Sheperd</li>
+            <li>Rottweiller</li>
+            <li>Cucassion</li>
+            <li>Eskimo</li>
+            </ul>
+    </div>    
+    <div id="subscribe_to_our_Newsletter">    
+            <h1 class="sub_title">Subscribe to our Newsletter</h1>
+        <form>
+            <label for="Email">Email</label><br>
+            <input type="text" id="email"><br>
+            <label form="First name">First name</label><br>
+            <input type="text"><br>
+            <label form="last name">last name</label><br>
+            <input type="text"><br>
+            <label for="password">password</label><br>
+            <input type="password"><br><br>
+            <br>
+    </div>    
+    <div id="What_mode_of_notification_irritates_you?">
+            <h2 class="sub_title">Mode of Notification</h2>
+            <Input type="checkbox" id="Daily">
+            <label for= "Daily">Daily</label><br>
+            <input type="checkbox" id="weekly">
+            <label for= "Weekly">Weekly</label><br>
+            <input type= "checkbox" id="monthly">
+            <label for= "Monthly">Monthly</label><br>
+            <input type= "checkbox" id="yearly">
+            <label for= "Yearly">Yearly</label>
+            <br>
+    </div> 
+    <div id="what_color_header_irritates_you?">
+            <h3 class="sub_title">What coloutr of header irritates you?</h3>
+            <input type="color" name="" id="">
+            <h4 class="sub_title"> When do you want to start recieving Notifications?</h4>
+            <input type="date">
+            <h5 class="sub_title"> What gender of dog breed are you intrested in?</h5>
+            <input type="radio" name="gender"= id="">
+            <label for="Female">Female</label><br>
+            <input type="radio" name="gender" id="">
+            <label for="male">male</label><br>
+            <br>
+            <br>
+    </div>
+            <input type="submit" style="color: coral;">
+        </form>
+    </body>
+</html>
